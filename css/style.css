@@ -1,0 +1,508 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,900|Open+Sans:400,700,800);
+@import url("animate.css");
+body {
+	padding:0;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	/*background-image: linear-gradient(45deg, #f4f4f4 1px, #dae1e4 2px, #dae1e4 7px, #fff 8px, #dae1e4 9px);*/
+	background-size: 10px 10px;
+	overflow-x: hidden;	
+}
+body, html {
+	height:100%;
+	width:100%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+		
+}
+ 
+
+body {
+  color: #5a5a5a;
+}
+
+
+/* --------- CUSTOMIZE THE NAVBAR ------------------- */
+
+.menu{
+    background-color:#fff;
+    padding-bottom:30px;
+    width: 100%;
+}
+
+.logo{
+   padding-left:30px;
+}
+
+/* --------- CUSTOMIZE myCarousel ------------------- */
+
+.carousel{
+  margin-top:80px;
+}
+
+.texto_banner{
+   margin-bottom:70px;
+}
+
+/* -------------------- Quem Somos ------------------------------- */
+
+.oescritorio {
+	background-color:#fff;
+	margin:0;
+	padding:0;
+	padding-bottom:30px;
+}
+
+
+.oescritorio h1 {
+	text-align:center;
+        font-size:22pt;
+        padding-top:0px;
+        color:#000000;
+        font-weight:bold;
+}
+
+.oescritorio h2 {
+        font-weight:bold;
+	color:#ccc;
+	padding-top:30px;
+}
+
+.oescritorio p {
+	text-align:center;
+        font-size:12pt;
+        padding-top:10px;
+        color:#6E6E6E;
+}
+
+
+/* ---------------------- CAMPOS -------------------------- */
+
+.campos {
+   background-color:#ffffff;
+}
+
+.campos div{
+   margin:0;
+   padding:0;
+}
+
+.campos div{
+   margin:0;
+   padding:0;
+   border:0;
+}
+
+
+.envio{
+  overflow:hidden;
+  height:350px;
+  border:0px;
+  
+}
+
+
+/* ----------------------  Áreas de Atuação -------------------------- */
+.areas {
+	background-color:#ededed;
+	margin:0;
+	padding:0;
+	padding-bottom:120px;
+        padding-top:30px;
+
+}
+.areas div {
+	text-align:center;
+}
+.areas .dados  {
+	padding-top:20px;
+        text-align:center;
+}
+.areas .dados div p {
+	font-size:12pt;
+	line-height:normal;
+	color:#6E6E6E;
+	text-align:center;
+}
+.areas .dados div {
+	text-align:center;
+}
+
+.areas h2 {
+        font-weight:bold;
+	color:#666;
+	padding-top:30px;
+        padding-bottom:20px;
+}
+
+
+
+/* -------------------- Vídeo ------------------------------- */
+
+
+.video{
+position: relative; 
+overflow: hidden; 
+background-image: url("//img.youtube.com/vi/NDlXj9mkIfY/maxresdefault.jpg"); 
+background-size: cover; 
+background-position: 50% 50%;
+height: 300px;
+}
+
+.conteudo_video p{
+height: 200px;
+width: 100px; 
+
+background-color:#fff;
+color:#000;
+}
+
+
+/* -------------------- Missão ------------------------------- */
+.missao {
+	background-color:#fff;
+	color:#666;
+}
+.missao h2 {
+	font-weight:bold;
+	color:#172c7d;
+	padding-top:60px;
+}
+.missao .bgmissao {
+	background-image: url(../img/fto_missao.jpg);
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+/* -------------------- Passo ------------------------------- */
+.passo {
+	background-color:#fff;
+	color:#666;
+}
+
+
+/* -------------------- Perfil ------------------------------- */
+.perfil {
+	background-color:#fff;
+	color:#666;
+        padding-top:50px;
+        padding-bottom:50px;
+}
+
+
+/* ------------------ Contato ------------------------- */
+.contato {
+	background-color:#fff;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 150px;
+	background-image: url(../img/bg_contato.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+        width: 100%;
+}
+.titulo h2 {
+	font-weight:bold;
+	color:#fff;
+        padding-left: 70px;
+        padding-bottom: 90px;
+}
+
+.fale{
+        margin-left:auto;
+        margin-right:auto;
+}
+
+.box1 img{
+        margin-left:auto;
+        margin-right:auto;
+}
+
+.btn1 {
+        background-color:transparent;
+        border:0;
+        
+}
+
+
+/* ------------------ On Line ------------------------- */
+
+.online{
+        margin-left:auto;
+        margin-right:auto;
+}
+
+.wa {
+	background-color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.wa p{
+        font-weight:bold;
+	color:#666;
+        font-size:22pt;
+        padding-top: 10px; 
+}
+
+.wa img{
+        padding-top: 10px;
+        padding-left: 10px; 
+}
+
+
+
+/* ------------------------ Valores ------------------------ */
+
+.valores {
+	background-color:#d28e21;
+	color:#FFF;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+.valores h2 {
+	font-weight:bold;
+         
+} 
+
+
+/* --------------------  Estrutura -------------------------- */
+.estrurura {
+	background-color:#fff;
+	color: #666;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-image: url(../img/fto_estrutura.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.estrurura h2 {
+	font-weight:bold;
+	color:#172c7d;
+}
+
+
+/* --------------------------------- Rodapé ------------------------------- */
+.rodape {
+	background-color:#555;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align:center;
+}
+
+.links{
+    color:#fff;
+}
+
+
+.links a{
+       color:#fff;
+   
+}
+
+.links a:hover{
+       color:#333;
+}
+
+
+.rodape2{
+        background-color:#222;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align:center;
+        color:#666;
+}
+
+
+/* ---------------------------------- DEPOIMENTOS --------------------------------- */
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+/* --------------------- Featurettes ---------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* ----------------------------- RESPONSIVE CSS  -------------------- */
+nav ul li a {
+	color:#808082;
+}
+.navbar-fixed-top {
+	background-color:transparent;
+	border:none;
+	color:#808082;
+}
+nav.navbar ul.nav li a {
+	color:#808082;
+	font-family:Open Sans;
+}
+nav.navbar ul.nav li a:active, nav.navbar ul.nav li a:hover   {
+	color:#808082;
+	font-family:Open Sans;
+	border-bottom:#fff solid 0px;
+}
+nav.navbar ul.nav li a *   {
+	color:#808082;
+	font-family:Open Sans;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+
+
+
+.bgopaco {
+	background:#fff;
+	background-color:#fff;
+	-webkit-transition: background .7s ease-in-out, height 4s; 
+	-moz-transition: background .7s ease-in-out, height 4s; 
+	transition: background .7s ease-in-out, height 4s;	
+    opacity: 0.98;
+    filter: alpha(opacity=98); /* For IE8 and earlier */
+	height:80px;
+}
+.bgopaco2 {
+	background:#005c58;
+	background-color:#005c58;
+	-webkit-transition: background .7s ease-in-out, height 4s; 
+	-moz-transition: background .7s ease-in-out, height 4s; 
+	transition: background .7s ease-in-out, height 4s;	
+    opacity: 1;
+    filter: alpha(opacity=1); /* For IE8 and earlier */
+	height:90px;
+}
+
+
+/* ------------------------- CASO --------------------------*/
+
+
+.caso{
+       text-align:center;
+}
+
+.caso h2{
+       margin-top:-300px;
+       text-align:center;
+       font-size:45px;
+       font-weight:bold;
+}
+
+.abaixo{
+       text-align:center;
+       padding-top:120px;
+}
+
+
+
+.passos{
+        background-color:#ededed;
+        margin:0;
+	padding:0;
+	padding-bottom:60px;
+        padding-top:120px;
+        text-align:center;
+}
+
+.comodidade{
+        background-color:#000;
+        margin:0;
+	padding:0;
+        padding-top:150px;
+        text-align:center;
+}
+
+
+.comod{
+      color:#fff;
+      background-color:#000;
+      border:0px;
+      padding-bottom:120px;
+}
+
+
+
+/* --------------------------- CADASTRE-SE -------------*/
+
+
+.aviso{
+      background-color:#fff;
+      color:#000;
+      padding-left:15px;
+}
+
+.aviso p {
+      text-align:justify; 
+      margin-left:20px; 
+      margin-right:20px;
+}
+
+
+.formulario{
+      background-color:#eeeeee;
+      padding-top:20px;
+}
+
+.form_enviado{
+      margin-top:200px;
+      background-color:#eee;
+      text-align:center;
+      font-size:25px;
+      font-weight:bold;
+      color:#000;
+      padding-top:20px;
+      padding-bottom:20px;
+}
+
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	border-top: 0px solid #ddd !important;
+}
+
+
