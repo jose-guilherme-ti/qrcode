@@ -108,11 +108,11 @@
           <div class="form-group">
             <label for="inputPassword3" class="col-sm-2 control-label">Descrição do Evento</label>
             <div class="col-sm-4">
-              <input type="text" class="form-control" id="descricao_do_evento" name="descricao_do_evento" placeholder="">
+              <input type="text" class="form-control" id="descricao_evento" name="descricao_evento" placeholder="">
             </div>
           </div>
 
-          <!--<div class="container">
+          <div class="container">
             <div class="form-group">
               <div>
                 <table class="table" id="dynamic_field" border-top="0">
@@ -126,7 +126,7 @@
                 </table>
               </div>
             </div>
-          </div>-->
+          </div>
         </form>
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
