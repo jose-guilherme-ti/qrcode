@@ -1,4 +1,4 @@
-import { carregar_tipo_evento, carregar_evento_atributo } from "./functions/carregar_evento.js";
+import carregar_tipo_evento, {carregar_evento_atributo } from "./functions/carregar_evento.js";
 import cadastrar_evento  from "./functions/cadastrar_evento.js";
 $(document).ready(function () {
 

@@ -34,7 +34,7 @@ $(document).ready(function () {
 
 
     criarTabela().then(sucesso => {
-      $("#tipo_evento").empty();
+      $("#id_tipo_evento").empty();
       carregar_tipo_evento().then(sucesso => {
         var evento_seletivo_form = '<option class="bld" value="">Selecione uma forma de ingresso</option> ';
 
@@ -44,7 +44,7 @@ $(document).ready(function () {
             evento_seletivo_form += '<option value="' + sucesso[val].id + '">' + sucesso[val].descricao_evento + '</option>';
 
           }
-          $("#tipo_evento").html(evento_seletivo_form);
+          $("#id_tipo_evento").html(evento_seletivo_form);
 
         });
 

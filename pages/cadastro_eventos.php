@@ -6,13 +6,11 @@
   <link href="./../css/style.css" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="./../js/qrcode.min.js"></script>
-  <script src="./../js/functions/carregar_evento.js"></script>
-  <script src="./../js/functions/cadastrar_tipo_evento.js"></script>
-  <script src="./../js/functions/cadastrar_evento.js"></script>
+  
   <script src="./../js/bootstrap.min.js"></script>
   <script type="module" src="./../js/carregar_fluxo.js"></script>
   <script type="module" src="./../js/add_input.js"></script>
+  <script src="./../js/qrcode.min.js"></script>
 
 
 
